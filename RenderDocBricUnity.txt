@@ -1,0 +1,411 @@
+C:\Users\LUCASA~1\AppData\Local\Temp\RenderDoc\Unity_2025.07.06_16.29_capture_2.rdc - Frame #4294967295
+
+ EID  | Event                                                                                                                                | Action #
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+363   | - => ExecuteCommandLists(17)[0]: Reset(Baked Command List 133241)                                                                    | 1     
+365   | - => ExecuteCommandLists(17)[0]: Close(Baked Command List 133241)                                                                    | 1     
+366   | - => ExecuteCommandLists(17)[1]: Reset(Post Async resumed (Baked))                                                                   | 1     
+368   | - WaitForRenderJobs                                                                                                                  |       
+370   | - CustomRenderTextures.Update                                                                                                        |       
+373   | - FrameTime.GPU                                                                                                                      | 1-213 
+374   |  \- ReflectionProbes.Update                                                                                                          |       
+376   |   - WaitForRenderJobs                                                                                                                |       
+393   |   - DrawIndexedInstanced(6, 1)                                                                                                       | 1     
+397   |   - ClearDepthStencilView(0.01, 0)                                                                                                   | 2     
+398   |   - ClearRenderTargetView({ 0.00, 0.00, 0.00, 0.00 })                                                                                | 3     
+399   |   - UIR.DrawChain                                                                                                                    | 4-212 
+400   |    \- GUITexture.Draw                                                                                                                |       
+411   |      \- DrawIndexedInstanced(6, 1)                                                                                                   | 4     
+413   |     - GUITexture.Draw                                                                                                                |       
+423   |      \- DrawIndexedInstanced(6, 1)                                                                                                   | 5     
+425   |     - GUITexture.Draw                                                                                                                |       
+435   |      \- DrawIndexedInstanced(6, 1)                                                                                                   | 6     
+437   |     - GUITexture.Draw                                                                                                                |       
+447   |      \- DrawIndexedInstanced(6, 1)                                                                                                   | 7     
+458   |     - DrawIndexedInstanced(36, 1)                                                                                                    | 8     
+459   |     - GUITexture.Draw                                                                                                                |       
+469   |      \- DrawIndexedInstanced(6, 1)                                                                                                   | 9     
+480   |     - DrawIndexedInstanced(30, 1)                                                                                                    | 10    
+481   |     - GUITexture.Draw                                                                                                                |       
+491   |      \- DrawIndexedInstanced(6, 1)                                                                                                   | 11    
+493   |     - GUITexture.Draw                                                                                                                |       
+503   |      \- DrawIndexedInstanced(6, 1)                                                                                                   | 12    
+505   |     - UIR.DrawRanges                                                                                                                 |       
+518   |      \- DrawIndexedInstanced(18, 1)                                                                                                  | 13    
+520   |     - UIR.DrawRanges                                                                                                                 |       
+532   |      \- DrawIndexedInstanced(84, 1)                                                                                                  | 14    
+534   |     - UIR.DrawRanges                                                                                                                 |       
+545   |      \- DrawIndexedInstanced(258, 1)                                                                                                 | 15    
+547   |     - UIR.DrawRanges                                                                                                                 |       
+555   |      \- DrawIndexedInstanced(156, 1)                                                                                                 | 16    
+557   |     - UIR.DrawRanges                                                                                                                 |       
+565   |      \- DrawIndexedInstanced(144, 1)                                                                                                 | 17    
+567   |     - UIR.DrawRanges                                                                                                                 |       
+575   |      \- DrawIndexedInstanced(282, 1)                                                                                                 | 18    
+577   |     - UIR.DrawRanges                                                                                                                 |       
+585   |      \- DrawIndexedInstanced(132, 1)                                                                                                 | 19    
+587   |     - UIR.DrawRanges                                                                                                                 |       
+595   |      \- DrawIndexedInstanced(60, 1)                                                                                                  | 20    
+597   |     - UIR.DrawRanges                                                                                                                 |       
+605   |      \- DrawIndexedInstanced(132, 1)                                                                                                 | 21    
+607   |     - UIR.DrawRanges                                                                                                                 |       
+615   |      \- DrawIndexedInstanced(204, 1)                                                                                                 | 22    
+617   |     - UIR.DrawRanges                                                                                                                 |       
+625   |      \- DrawIndexedInstanced(132, 1)                                                                                                 | 23    
+627   |     - UIR.DrawRanges                                                                                                                 |       
+635   |      \- DrawIndexedInstanced(60, 1)                                                                                                  | 24    
+637   |     - UIR.DrawRanges                                                                                                                 |       
+645   |      \- DrawIndexedInstanced(132, 1)                                                                                                 | 25    
+647   |     - UIR.DrawRanges                                                                                                                 |       
+655   |      \- DrawIndexedInstanced(72, 1)                                                                                                  | 26    
+657   |     - UIR.DrawRanges                                                                                                                 |       
+666   |      \- DrawIndexedInstanced(156, 1)                                                                                                 | 27    
+668   |     - UIR.DrawRanges                                                                                                                 |       
+676   |      \- DrawIndexedInstanced(168, 1)                                                                                                 | 28    
+678   |     - UIR.DrawRanges                                                                                                                 |       
+686   |      \- DrawIndexedInstanced(132, 1)                                                                                                 | 29    
+688   |     - UIR.DrawRanges                                                                                                                 |       
+696   |      \- DrawIndexedInstanced(132, 1)                                                                                                 | 30    
+698   |     - UIR.DrawRanges                                                                                                                 |       
+706   |      \- DrawIndexedInstanced(60, 1)                                                                                                  | 31    
+708   |     - UIR.DrawRanges                                                                                                                 |       
+716   |      \- DrawIndexedInstanced(132, 1)                                                                                                 | 32    
+718   |     - UIR.DrawRanges                                                                                                                 |       
+726   |      \- DrawIndexedInstanced(72, 1)                                                                                                  | 33    
+728   |     - UIR.DrawRanges                                                                                                                 |       
+736   |      \- DrawIndexedInstanced(84, 1)                                                                                                  | 34    
+738   |     - UIR.DrawRanges                                                                                                                 | 35-36 
+745   |      \- DrawIndexedInstanced(72, 1)                                                                                                  | 35    
+746   |       - DrawIndexedInstanced(24, 1)                                                                                                  | 36    
+748   |     - UIR.DrawRanges                                                                                                                 |       
+755   |      \- DrawIndexedInstanced(192, 1)                                                                                                 | 37    
+757   |     - UIR.DrawRanges                                                                                                                 |       
+765   |      \- DrawIndexedInstanced(132, 1)                                                                                                 | 38    
+767   |     - UIR.DrawRanges                                                                                                                 |       
+778   |      \- DrawIndexedInstanced(132, 1)                                                                                                 | 39    
+780   |     - UIR.DrawRanges                                                                                                                 |       
+788   |      \- DrawIndexedInstanced(60, 1)                                                                                                  | 40    
+790   |     - UIR.DrawRanges                                                                                                                 |       
+798   |      \- DrawIndexedInstanced(132, 1)                                                                                                 | 41    
+800   |     - UIR.DrawRanges                                                                                                                 |       
+808   |      \- DrawIndexedInstanced(72, 1)                                                                                                  | 42    
+810   |     - UIR.DrawRanges                                                                                                                 |       
+819   |      \- DrawIndexedInstanced(156, 1)                                                                                                 | 43    
+821   |     - UIR.DrawRanges                                                                                                                 |       
+829   |      \- DrawIndexedInstanced(192, 1)                                                                                                 | 44    
+831   |     - UIR.DrawRanges                                                                                                                 |       
+839   |      \- DrawIndexedInstanced(132, 1)                                                                                                 | 45    
+841   |     - UIR.DrawRanges                                                                                                                 |       
+849   |      \- DrawIndexedInstanced(132, 1)                                                                                                 | 46    
+851   |     - UIR.DrawRanges                                                                                                                 |       
+859   |      \- DrawIndexedInstanced(60, 1)                                                                                                  | 47    
+861   |     - UIR.DrawRanges                                                                                                                 |       
+869   |      \- DrawIndexedInstanced(132, 1)                                                                                                 | 48    
+871   |     - UIR.DrawRanges                                                                                                                 |       
+879   |      \- DrawIndexedInstanced(72, 1)                                                                                                  | 49    
+881   |     - UIR.DrawRanges                                                                                                                 |       
+890   |      \- DrawIndexedInstanced(72, 1)                                                                                                  | 50    
+892   |     - SceneCamera.Clear                                                                                                              | 51-53 
+893   |      \- Clear                                                                                                                        | 51-52 
+897   |        \- ClearDepthStencilView(0.00, 0)                                                                                             | 51    
+898   |         - ClearRenderTargetView({ 0.06301, 0.06301, 0.06301, 1.00 })                                                                 | 52    
+901   |     - SceneCamera.Render                                                                                                             | 53-182
+902   |      \- CopyBufferRegion(Buffer-512-16384, D3D12PageAllocator::AllocateNewResourceInternal() Scratchbuffer ...)                      | 53    
+903   |       - CopyBufferRegion(Buffer-512-65536, D3D12PageAllocator::AllocateNewResourceInternal() Scratchbuffer ...)                      | 54    
+904   |       - UniversalRenderPipeline.RenderSingleCameraInternal: SceneCamera                                                              | 55-180
+905   |        \- CompileRenderGraph                                                                                                         |       
+907   |         - ExecuteRenderGraph                                                                                                         | 55-180
+908   |          \- Initialize Frame                                                                                                         |       
+910   |           - Setup Forward Lights                                                                                                     |       
+912   |            \- UpdateReflectionProbeAtlas                                                                                             |       
+916   |             - LightCookies                                                                                                           |       
+920   |           - Setup Debug Properties                                                                                                   |       
+922   |           - Setup Camera Properties                                                                                                  |       
+924   |           - BeginRenderPass(DS=Clear)                                                                                                | 55    
+926   |           - Draw Main Light Shadowmap                                                                                                |       
+928   |            \- MainLightShadow                                                                                                        |       
+929   |              \- EndRenderPass(Suspend, DS=D3D12_RENDER_PASS_ENDING_ACCESS_TYPE(4))                                                   | 55    
+930   |               - => ExecuteCommandLists(17)[1]: Close(Post Async resumed (Baked))                                                     | 55    
+931   |               - => ExecuteCommandLists(17)[2]: Reset(Post Async resumed (Baked))                                                     | 55    
+932   |               - BeginRenderPass(Resume, DS=D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE(4))                                               | 55    
+934   |               - EndRenderPass(Suspend, DS=D3D12_RENDER_PASS_ENDING_ACCESS_TYPE(4))                                                   | 55    
+935   |               - => ExecuteCommandLists(17)[2]: Close(Post Async resumed (Baked))                                                     | 55    
+936   |               - => ExecuteCommandLists(17)[3]: Reset(Post Async resumed (Baked))                                                     | 55    
+937   |               - BeginRenderPass(Resume, DS=D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE(4))                                               | 55    
+939   |               - EndRenderPass(Suspend, DS=D3D12_RENDER_PASS_ENDING_ACCESS_TYPE(4))                                                   | 55    
+940   |               - => ExecuteCommandLists(17)[3]: Close(Post Async resumed (Baked))                                                     | 55    
+941   |               - => ExecuteCommandLists(17)[4]: Reset(Post Async resumed (Baked))                                                     | 55    
+942   |               - BeginRenderPass(Resume, DS=D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE(4))                                               | 55    
+944   |               - EndRenderPass(Suspend, DS=D3D12_RENDER_PASS_ENDING_ACCESS_TYPE(4))                                                   | 55    
+945   |               - => ExecuteCommandLists(17)[4]: Close(Post Async resumed (Baked))                                                     | 55    
+946   |               - => ExecuteCommandLists(17)[5]: Reset(Post Async resumed (Baked))                                                     | 55    
+947   |               - BeginRenderPass(Resume, DS=D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE(4))                                               | 55    
+952   |           - Draw Additional Lights Shadowmap                                                                                         |       
+954   |           - Setup Camera Properties                                                                                                  |       
+957   |           - EndRenderPass(Suspend, DS=D3D12_RENDER_PASS_ENDING_ACCESS_TYPE(4))                                                       | 55    
+958   |           - => ExecuteCommandLists(17)[5]: Close(Post Async resumed (Baked))                                                         | 55    
+959   |           - => ExecuteCommandLists(17)[6]: Reset(Post Async resumed (Baked))                                                         | 55    
+960   |           - BeginRenderPass(Resume, DS=D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE(4))                                                   | 55    
+962   |           - EndRenderPass(DS=Preserve)                                                                                               | 55    
+963   |           - BeginRenderPass(Discard)                                                                                                 | 55    
+965   |           - Blit Color LUT                                                                                                           | 55-56 
+967   |            \- ColorGradingLUT                                                                                                        | 55-56 
+979   |              \- DrawInstanced(3, 1)                                                                                                  | 55    
+984   |           - EndRenderPass(Suspend, D3D12_RENDER_PASS_ENDING_ACCESS_TYPE(4))                                                          | 56    
+985   |           - => ExecuteCommandLists(17)[6]: Close(Post Async resumed (Baked))                                                         | 56    
+986   |           - => ExecuteCommandLists(17)[7]: Reset(Async command list (RenderPass) (Baked))                                            | 56    
+987   |           - BeginRenderPass(Resume, D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE(4))                                                      | 56    
+989   |           - EndRenderPass(Preserve)                                                                                                  | 56    
+990   |           - BeginRenderPass(C=Clear, DS=Clear)                                                                                       | 56    
+993   |           - DrawDepthNormalPrepass                                                                                                   |       
+997   |           - EndRenderPass(Suspend, C=D3D12_RENDER_PASS_ENDING_ACCESS_TYPE(4), DS=D3D12_RENDER_PASS_ENDING_ACCESS_TYPE(4))            | 56    
+998   |           - => ExecuteCommandLists(17)[7]: Close(Async command list (RenderPass) (Baked))                                            | 56    
+999   |           - => ExecuteCommandLists(17)[8]: Reset(Post Async resumed (Baked))                                                         | 56    
+1000  |           - BeginRenderPass(Resume, C=D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE(4), DS=D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE(4))     | 56    
+1002  |           - EndRenderPass(C=Preserve, DS=Preserve)                                                                                   | 56    
+1004  |           - SSAO                                                                                                                     | 56-60 
+1017  |            \- DrawInstanced(3, 1)                                                                                                    | 56    
+1026  |             - DrawInstanced(3, 1)                                                                                                    | 57    
+1035  |             - DrawInstanced(3, 1)                                                                                                    | 58    
+1043  |             - DrawInstanced(3, 1)                                                                                                    | 59    
+1046  |           - BeginRenderPass(C=Clear, DS=Clear)                                                                                       | 60    
+1049  |           - DrawOpaqueObjects                                                                                                        | 60-160
+1050  |            \- EndRenderPass(Suspend, C=D3D12_RENDER_PASS_ENDING_ACCESS_TYPE(4), DS=D3D12_RENDER_PASS_ENDING_ACCESS_TYPE(4))          | 60    
+1051  |             - => ExecuteCommandLists(17)[8]: Close(Post Async resumed (Baked))                                                       | 60    
+1052  |             - => ExecuteCommandLists(17)[9]: Reset(Async command list (RenderPass) (Baked))                                          | 60    
+1053  |             - RenderLoop.Draw                                                                                                        | 60-159
+1054  |              \- BeginRenderPass(Resume, C=D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE(4), DS=D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE(4)) | 60    
+1069  |               - DrawIndexedInstanced(36, 1)                                                                                          | 60    
+1076  |               - DrawIndexedInstanced(36, 1)                                                                                          | 61    
+1083  |               - DrawIndexedInstanced(36, 1)                                                                                          | 62    
+1090  |               - DrawIndexedInstanced(36, 1)                                                                                          | 63    
+1097  |               - DrawIndexedInstanced(36, 1)                                                                                          | 64    
+1104  |               - DrawIndexedInstanced(36, 1)                                                                                          | 65    
+1111  |               - DrawIndexedInstanced(36, 1)                                                                                          | 66    
+1118  |               - DrawIndexedInstanced(36, 1)                                                                                          | 67    
+1125  |               - DrawIndexedInstanced(36, 1)                                                                                          | 68    
+1132  |               - DrawIndexedInstanced(36, 1)                                                                                          | 69    
+1139  |               - DrawIndexedInstanced(36, 1)                                                                                          | 70    
+1146  |               - DrawIndexedInstanced(36, 1)                                                                                          | 71    
+1153  |               - DrawIndexedInstanced(36, 1)                                                                                          | 72    
+1160  |               - DrawIndexedInstanced(36, 1)                                                                                          | 73    
+1167  |               - DrawIndexedInstanced(36, 1)                                                                                          | 74    
+1174  |               - DrawIndexedInstanced(36, 1)                                                                                          | 75    
+1181  |               - DrawIndexedInstanced(36, 1)                                                                                          | 76    
+1188  |               - DrawIndexedInstanced(36, 1)                                                                                          | 77    
+1195  |               - DrawIndexedInstanced(36, 1)                                                                                          | 78    
+1202  |               - DrawIndexedInstanced(36, 1)                                                                                          | 79    
+1209  |               - DrawIndexedInstanced(36, 1)                                                                                          | 80    
+1216  |               - DrawIndexedInstanced(36, 1)                                                                                          | 81    
+1223  |               - DrawIndexedInstanced(36, 1)                                                                                          | 82    
+1230  |               - DrawIndexedInstanced(36, 1)                                                                                          | 83    
+1237  |               - DrawIndexedInstanced(36, 1)                                                                                          | 84    
+1244  |               - DrawIndexedInstanced(36, 1)                                                                                          | 85    
+1251  |               - DrawIndexedInstanced(36, 1)                                                                                          | 86    
+1258  |               - DrawIndexedInstanced(36, 1)                                                                                          | 87    
+1265  |               - DrawIndexedInstanced(36, 1)                                                                                          | 88    
+1272  |               - DrawIndexedInstanced(36, 1)                                                                                          | 89    
+1279  |               - DrawIndexedInstanced(36, 1)                                                                                          | 90    
+1286  |               - DrawIndexedInstanced(36, 1)                                                                                          | 91    
+1293  |               - DrawIndexedInstanced(36, 1)                                                                                          | 92    
+1300  |               - DrawIndexedInstanced(36, 1)                                                                                          | 93    
+1307  |               - DrawIndexedInstanced(36, 1)                                                                                          | 94    
+1314  |               - DrawIndexedInstanced(36, 1)                                                                                          | 95    
+1321  |               - DrawIndexedInstanced(36, 1)                                                                                          | 96    
+1328  |               - DrawIndexedInstanced(36, 1)                                                                                          | 97    
+1335  |               - DrawIndexedInstanced(36, 1)                                                                                          | 98    
+1342  |               - DrawIndexedInstanced(36, 1)                                                                                          | 99    
+1349  |               - DrawIndexedInstanced(36, 1)                                                                                          | 100   
+1356  |               - DrawIndexedInstanced(36, 1)                                                                                          | 101   
+1363  |               - DrawIndexedInstanced(36, 1)                                                                                          | 102   
+1370  |               - DrawIndexedInstanced(36, 1)                                                                                          | 103   
+1377  |               - DrawIndexedInstanced(36, 1)                                                                                          | 104   
+1384  |               - DrawIndexedInstanced(36, 1)                                                                                          | 105   
+1391  |               - DrawIndexedInstanced(36, 1)                                                                                          | 106   
+1398  |               - DrawIndexedInstanced(36, 1)                                                                                          | 107   
+1405  |               - DrawIndexedInstanced(36, 1)                                                                                          | 108   
+1412  |               - DrawIndexedInstanced(36, 1)                                                                                          | 109   
+1419  |               - DrawIndexedInstanced(36, 1)                                                                                          | 110   
+1426  |               - DrawIndexedInstanced(36, 1)                                                                                          | 111   
+1433  |               - DrawIndexedInstanced(36, 1)                                                                                          | 112   
+1440  |               - DrawIndexedInstanced(36, 1)                                                                                          | 113   
+1447  |               - DrawIndexedInstanced(36, 1)                                                                                          | 114   
+1454  |               - DrawIndexedInstanced(36, 1)                                                                                          | 115   
+1461  |               - DrawIndexedInstanced(36, 1)                                                                                          | 116   
+1468  |               - DrawIndexedInstanced(36, 1)                                                                                          | 117   
+1475  |               - DrawIndexedInstanced(36, 1)                                                                                          | 118   
+1482  |               - DrawIndexedInstanced(36, 1)                                                                                          | 119   
+1489  |               - DrawIndexedInstanced(36, 1)                                                                                          | 120   
+1496  |               - DrawIndexedInstanced(36, 1)                                                                                          | 121   
+1503  |               - DrawIndexedInstanced(36, 1)                                                                                          | 122   
+1510  |               - DrawIndexedInstanced(36, 1)                                                                                          | 123   
+1517  |               - DrawIndexedInstanced(36, 1)                                                                                          | 124   
+1524  |               - DrawIndexedInstanced(36, 1)                                                                                          | 125   
+1531  |               - DrawIndexedInstanced(36, 1)                                                                                          | 126   
+1538  |               - DrawIndexedInstanced(36, 1)                                                                                          | 127   
+1545  |               - DrawIndexedInstanced(36, 1)                                                                                          | 128   
+1552  |               - DrawIndexedInstanced(36, 1)                                                                                          | 129   
+1559  |               - DrawIndexedInstanced(36, 1)                                                                                          | 130   
+1566  |               - DrawIndexedInstanced(36, 1)                                                                                          | 131   
+1573  |               - DrawIndexedInstanced(36, 1)                                                                                          | 132   
+1580  |               - DrawIndexedInstanced(36, 1)                                                                                          | 133   
+1587  |               - DrawIndexedInstanced(36, 1)                                                                                          | 134   
+1594  |               - DrawIndexedInstanced(36, 1)                                                                                          | 135   
+1601  |               - DrawIndexedInstanced(36, 1)                                                                                          | 136   
+1608  |               - DrawIndexedInstanced(36, 1)                                                                                          | 137   
+1615  |               - DrawIndexedInstanced(36, 1)                                                                                          | 138   
+1622  |               - DrawIndexedInstanced(36, 1)                                                                                          | 139   
+1629  |               - DrawIndexedInstanced(36, 1)                                                                                          | 140   
+1636  |               - DrawIndexedInstanced(36, 1)                                                                                          | 141   
+1643  |               - DrawIndexedInstanced(36, 1)                                                                                          | 142   
+1650  |               - DrawIndexedInstanced(36, 1)                                                                                          | 143   
+1657  |               - DrawIndexedInstanced(36, 1)                                                                                          | 144   
+1664  |               - DrawIndexedInstanced(36, 1)                                                                                          | 145   
+1671  |               - DrawIndexedInstanced(36, 1)                                                                                          | 146   
+1678  |               - DrawIndexedInstanced(36, 1)                                                                                          | 147   
+1685  |               - DrawIndexedInstanced(36, 1)                                                                                          | 148   
+1692  |               - DrawIndexedInstanced(36, 1)                                                                                          | 149   
+1699  |               - DrawIndexedInstanced(36, 1)                                                                                          | 150   
+1706  |               - DrawIndexedInstanced(36, 1)                                                                                          | 151   
+1713  |               - DrawIndexedInstanced(36, 1)                                                                                          | 152   
+1720  |               - DrawIndexedInstanced(36, 1)                                                                                          | 153   
+1727  |               - DrawIndexedInstanced(36, 1)                                                                                          | 154   
+1734  |               - DrawIndexedInstanced(36, 1)                                                                                          | 155   
+1741  |               - DrawIndexedInstanced(36, 1)                                                                                          | 156   
+1748  |               - DrawIndexedInstanced(36, 1)                                                                                          | 157   
+1755  |               - DrawIndexedInstanced(36, 1)                                                                                          | 158   
+1762  |               - DrawIndexedInstanced(36, 1)                                                                                          | 159   
+1764  |             - EndRenderPass(Suspend, C=D3D12_RENDER_PASS_ENDING_ACCESS_TYPE(4), DS=D3D12_RENDER_PASS_ENDING_ACCESS_TYPE(4))          | 160   
+1765  |             - => ExecuteCommandLists(17)[9]: Close(Async command list (RenderPass) (Baked))                                          | 160   
+1766  |             - => ExecuteCommandLists(17)[10]: Reset(Post Async resumed (Baked))                                                      | 160   
+1767  |             - BeginRenderPass(Resume, C=D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE(4), DS=D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE(4))   | 160   
+1772  |           - DrawSkybox                                                                                                               | 160-161
+1773  |            \- Camera.RenderSkybox                                                                                                    |       
+1788  |              \- DrawInstanced(5040, 1)                                                                                               | 160   
+1793  |           - EndRenderPass(Suspend, C=D3D12_RENDER_PASS_ENDING_ACCESS_TYPE(4), DS=D3D12_RENDER_PASS_ENDING_ACCESS_TYPE(4))            | 161   
+1794  |           - => ExecuteCommandLists(17)[10]: Close(Post Async resumed (Baked))                                                        | 161   
+1795  |           - => ExecuteCommandLists(17)[11]: Reset(Async command list (RenderPass) (Baked))                                           | 161   
+1796  |           - BeginRenderPass(Resume, C=D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE(4), DS=D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE(4))     | 161   
+1798  |           - EndRenderPass(C=Preserve, DS=Preserve)                                                                                   | 161   
+1799  |           - BeginRenderPass(Discard)                                                                                                 | 161   
+1802  |           - CopyColor                                                                                                                | 161-162
+1804  |            \- CopyColor                                                                                                              | 161-162
+1816  |              \- DrawInstanced(3, 1)                                                                                                  | 161   
+1822  |           - EndRenderPass(Suspend, D3D12_RENDER_PASS_ENDING_ACCESS_TYPE(4))                                                          | 162   
+1823  |           - => ExecuteCommandLists(17)[11]: Close(Async command list (RenderPass) (Baked))                                           | 162   
+1824  |           - => ExecuteCommandLists(17)[12]: Reset(Post Async resumed (Baked))                                                        | 162   
+1825  |           - BeginRenderPass(Resume, D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE(4))                                                      | 162   
+1827  |           - EndRenderPass(Preserve)                                                                                                  | 162   
+1828  |           - BeginRenderPass(C=Preserve, DS=Preserve)                                                                                 | 162   
+1831  |           - DrawTransparentObjects                                                                                                   |       
+1834  |           - RG_SetupPostFX                                                                                                           |       
+1837  |           - EndRenderPass(Suspend, C=D3D12_RENDER_PASS_ENDING_ACCESS_TYPE(4), DS=D3D12_RENDER_PASS_ENDING_ACCESS_TYPE(4))            | 162   
+1838  |           - => ExecuteCommandLists(17)[12]: Close(Post Async resumed (Baked))                                                        | 162   
+1839  |           - => ExecuteCommandLists(17)[13]: Reset(Async command list (RenderPass) (Baked))                                           | 162   
+1840  |           - BeginRenderPass(Resume, C=D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE(4), DS=D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE(4))     | 162   
+1842  |           - EndRenderPass(C=Preserve, DS=Preserve)                                                                                   | 162   
+1844  |           - Bloom                                                                                                                    | 162-178
+1845  |            \- RG_BloomPrefilter                                                                                                      |       
+1858  |              \- DrawInstanced(3, 1)                                                                                                  | 162   
+1860  |             - RG_BloomDownsample                                                                                                     | 163-172
+1870  |              \- DrawInstanced(3, 1)                                                                                                  | 163   
+1878  |               - DrawInstanced(3, 1)                                                                                                  | 164   
+1888  |               - DrawInstanced(3, 1)                                                                                                  | 165   
+1896  |               - DrawInstanced(3, 1)                                                                                                  | 166   
+1906  |               - DrawInstanced(3, 1)                                                                                                  | 167   
+1914  |               - DrawInstanced(3, 1)                                                                                                  | 168   
+1924  |               - DrawInstanced(3, 1)                                                                                                  | 169   
+1932  |               - DrawInstanced(3, 1)                                                                                                  | 170   
+1942  |               - DrawInstanced(3, 1)                                                                                                  | 171   
+1950  |               - DrawInstanced(3, 1)                                                                                                  | 172   
+1952  |             - RG_BloomUpsample                                                                                                       | 173-177
+1964  |              \- DrawInstanced(3, 1)                                                                                                  | 173   
+1974  |               - DrawInstanced(3, 1)                                                                                                  | 174   
+1984  |               - DrawInstanced(3, 1)                                                                                                  | 175   
+1994  |               - DrawInstanced(3, 1)                                                                                                  | 176   
+2003  |               - DrawInstanced(3, 1)                                                                                                  | 177   
+2007  |           - RG_UberPostSetupBloomPass                                                                                                |       
+2010  |           - BeginRenderPass(C=Preserve, DS=Discard)                                                                                  | 178   
+2012  |           - RG_UberPost                                                                                                              |       
+2022  |            \- DrawInstanced(3, 1)                                                                                                    | 178   
+2025  |           - EndRenderPass(Suspend, C=D3D12_RENDER_PASS_ENDING_ACCESS_TYPE(4), DS=D3D12_RENDER_PASS_ENDING_ACCESS_TYPE(4))            | 179   
+2026  |           - => ExecuteCommandLists(17)[13]: Close(Async command list (RenderPass) (Baked))                                           | 179   
+2027  |           - => ExecuteCommandLists(17)[14]: Reset(Post Async resumed (Baked))                                                        | 179   
+2028  |           - BeginRenderPass(Resume, C=D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE(4), DS=D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE(4))     | 179   
+2030  |           - EndRenderPass(C=D3D12_RENDER_PASS_ENDING_ACCESS_TYPE(4), DS=D3D12_RENDER_PASS_ENDING_ACCESS_TYPE(4))                     | 179   
+2032  |           - BeginRenderPass(C=D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE(4), DS=D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE(4))             | 179   
+2034  |           - Copy Final Depth                                                                                                         | 179-180
+2036  |            \- CopyDepth                                                                                                              | 179-180
+2048  |              \- DrawInstanced(3, 1)                                                                                                  | 179   
+2052  |           - EndRenderPass(Suspend, C=D3D12_RENDER_PASS_ENDING_ACCESS_TYPE(4), DS=D3D12_RENDER_PASS_ENDING_ACCESS_TYPE(4))            | 180   
+2053  |           - => ExecuteCommandLists(17)[14]: Close(Post Async resumed (Baked))                                                        | 180   
+2054  |           - => ExecuteCommandLists(17)[15]: Reset(Async command list (RenderPass) (Baked))                                           | 180   
+2055  |           - BeginRenderPass(Resume, C=D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE(4), DS=D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE(4))     | 180   
+2057  |           - EndRenderPass(C=D3D12_RENDER_PASS_ENDING_ACCESS_TYPE(4), DS=D3D12_RENDER_PASS_ENDING_ACCESS_TYPE(4))                     | 180   
+2059  |           - BeginRenderPass(C=D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE(4), DS=D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE(4))             | 180   
+2061  |           - DrawWireOverlay                                                                                                          |       
+2062  |            \- DrawWireOverlay                                                                                                        |       
+2066  |           - EndRenderPass(Suspend, C=D3D12_RENDER_PASS_ENDING_ACCESS_TYPE(4), DS=D3D12_RENDER_PASS_ENDING_ACCESS_TYPE(4))            | 180   
+2067  |           - => ExecuteCommandLists(17)[15]: Close(Async command list (RenderPass) (Baked))                                           | 180   
+2068  |           - => ExecuteCommandLists(17)[16]: Reset(Baked Command List 133225)                                                         | 180   
+2069  |           - BeginRenderPass(Resume, C=D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE(4), DS=D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE(4))     | 180   
+2071  |           - EndRenderPass(C=Preserve, DS=Preserve)                                                                                   | 180   
+2073  |           - Set Editor Target                                                                                                        |       
+2088  |       - DrawInstanced(768, 1)                                                                                                        | 180   
+2092  |       - DrawInstanced(768, 1)                                                                                                        | 181   
+2096  |       - DrawInstanced(716, 1)                                                                                                        | 182   
+2098  |     - SceneCamera.Render                                                                                                             |       
+2099  |      \- SceneCamera.RenderSelected                                                                                                   |       
+2100  |        \- SceneCamera.RenderOutline                                                                                                  |       
+2104  |     - Graphics.Blit                                                                                                                  |       
+2118  |      \- DrawIndexedInstanced(6, 1)                                                                                                   | 183   
+2120  |     - Graphics.Blit                                                                                                                  |       
+2133  |      \- DrawIndexedInstanced(6, 1)                                                                                                   | 184   
+2135  |     - SceneCamera.Finish                                                                                                             |       
+2136  |      \- WaitForRenderJobs                                                                                                            |       
+2139  |     - GUITexture.Draw                                                                                                                |       
+2153  |      \- DrawIndexedInstanced(6, 1)                                                                                                   | 185   
+2159  |     - ClearRenderTargetView({ 0.00, 0.00, 0.00, 0.00 })                                                                              | 186   
+2160  |     - GUITexture.Draw                                                                                                                |       
+2174  |      \- DrawIndexedInstanced(6, 1)                                                                                                   | 187   
+2176  |     - UIR.DrawRanges                                                                                                                 |       
+2189  |      \- DrawIndexedInstanced(156, 1)                                                                                                 | 188   
+2191  |     - UIR.DrawRanges                                                                                                                 |       
+2199  |      \- DrawIndexedInstanced(168, 1)                                                                                                 | 189   
+2201  |     - UIR.DrawRanges                                                                                                                 |       
+2208  |      \- DrawIndexedInstanced(72, 1)                                                                                                  | 190   
+2210  |     - UIR.DrawRanges                                                                                                                 |       
+2218  |      \- DrawIndexedInstanced(228, 1)                                                                                                 | 191   
+2220  |     - UIR.DrawRanges                                                                                                                 |       
+2231  |      \- DrawIndexedInstanced(312, 1)                                                                                                 | 192   
+2233  |     - UIR.DrawRanges                                                                                                                 |       
+2241  |      \- DrawIndexedInstanced(144, 1)                                                                                                 | 193   
+2246  |     - ClearRenderTargetView({ 1.00, 1.00, 1.00, 0.00 })                                                                              | 194   
+2247  |     - SceneCamera.Clear                                                                                                              |       
+2249  |     - GUITexture.Draw                                                                                                                |       
+2260  |      \- DrawIndexedInstanced(6, 1)                                                                                                   | 195   
+2270  |     - DrawIndexedInstanced(96, 1)                                                                                                    | 196   
+2281  |     - DrawIndexedInstanced(12, 1)                                                                                                    | 197   
+2290  |     - DrawIndexedInstanced(96, 1)                                                                                                    | 198   
+2301  |     - DrawIndexedInstanced(12, 1)                                                                                                    | 199   
+2310  |     - DrawIndexedInstanced(96, 1)                                                                                                    | 200   
+2317  |     - DrawIndexedInstanced(36, 1)                                                                                                    | 201   
+2324  |     - DrawIndexedInstanced(96, 1)                                                                                                    | 202   
+2331  |     - DrawIndexedInstanced(96, 1)                                                                                                    | 203   
+2338  |     - DrawIndexedInstanced(96, 1)                                                                                                    | 204   
+2349  |     - DrawIndexedInstanced(12, 1)                                                                                                    | 205   
+2350  |     - GUITexture.Draw                                                                                                                |       
+2364  |      \- DrawIndexedInstanced(6, 1)                                                                                                   | 206   
+2375  |     - DrawIndexedInstanced(36, 1)                                                                                                    | 207   
+2385  |     - DrawInstanced(4, 1)                                                                                                            | 208   
+2392  |     - DrawInstanced(4, 1)                                                                                                            | 209   
+2399  |     - DrawInstanced(4, 1)                                                                                                            | 210   
+2400  |     - UIR.DrawRanges                                                                                                                 |       
+2414  |      \- DrawIndexedInstanced(84, 1)                                                                                                  | 211   
+2417  |   - Graphics.Blit                                                                                                                    |       
+2430  |    \- DrawIndexedInstanced(6, 1)                                                                                                     | 212   
+2435  | - => ExecuteCommandLists(17)[16]: Close(Baked Command List 133225)                                                                   | 213   
+2436  | - Present(BackBuffer0_0)                                                                                                             | 213   
+2440  | - => ExecuteCommandLists(1)[0]: Reset(Async command list (RenderPass) (Baked))                                                       | 214   
+2441  | - => ExecuteCommandLists(1)[0]: Close(Async command list (RenderPass) (Baked))                                                       | 214   
+2443  | - End of Capture                                                                                                                     | 214   
